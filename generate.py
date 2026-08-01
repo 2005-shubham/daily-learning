@@ -364,7 +364,7 @@ Generated Automatically
 
 def main():
 
-    topic = random_topic()
+    topic = choose_topic()
 
     filename = today_filename()
 
