@@ -2,7 +2,7 @@ import os
 import json
 import random
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import google.generativeai as genai
@@ -21,13 +21,9 @@ genai.configure(api_key=API_KEY)
 MODEL = genai.GenerativeModel("gemini-2.5-flash")
 
 ROOT = Path(__file__).parent
-
 TOPIC_FILE = ROOT / "topics.json"
-
 NOTES_DIR = ROOT / "notes"
-
 README_FILE = ROOT / "README.md"
-
 HISTORY_FILE = ROOT / "history.json"
 
 NOTES_DIR.mkdir(exist_ok=True)
@@ -37,16 +33,23 @@ logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(message)s"
 )
 
+
 # -----------------------------------------------------
 # Load Topics
 # -----------------------------------------------------
 
 def load_topics():
+    if not TOPIC_FILE.exists():
+        raise FileNotFoundError(f"{TOPIC_FILE} not found!")
 
     with open(TOPIC_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    return data["topics"]
+    topics = data.get("topics")
+    if not topics:
+        raise ValueError(f"'topics' key missing or empty in {TOPIC_FILE}")
+
+    return topics
 
 
 # -----------------------------------------------------
@@ -54,7 +57,6 @@ def load_topics():
 # -----------------------------------------------------
 
 def load_history():
-
     if not HISTORY_FILE.exists():
         return []
 
@@ -63,35 +65,24 @@ def load_history():
 
 
 def save_history(history):
-
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, indent=4)
 
 
 # -----------------------------------------------------
-# Random Topic
+# Random Topic (does NOT touch history — only picks)
 # -----------------------------------------------------
 
-def choose_topic():
-
+def choose_topic(history):
     topics = load_topics()
 
-    history = load_history()
-
     recent = history[-15:]
-
     available = [t for t in topics if t not in recent]
 
     if not available:
         available = topics
 
-    topic = random.choice(available)
-
-    history.append(topic)
-
-    save_history(history)
-
-    return topic
+    return random.choice(available)
 
 
 # -----------------------------------------------------
@@ -99,61 +90,19 @@ def choose_topic():
 # -----------------------------------------------------
 
 def today_filename():
-
-    today = datetime.utcnow().strftime("%Y-%m-%d")
-
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     return NOTES_DIR / f"{today}.md"
 
 
-# -----------------------------------------------------
-# Already Generated?
-# -----------------------------------------------------
-
 def already_exists():
-
     return today_filename().exists()
 
-
-# -----------------------------------------------------
-# README updater
-# -----------------------------------------------------
-
-def update_readme(topic):
-
-    today = datetime.utcnow().strftime("%Y-%m-%d")
-
-    history = load_history()
-
-    total = len(history)
-
-    readme = f"""# Daily Learning Repository
-
-Automatically generated using **Gemini AI**
-
----
-
-## Latest Update
-
-**Date:** {today}
-
-**Today's Topic:** {topic}
-
-**Total Notes Generated:** {total}
-
----
-
-This repository automatically generates learning notes every day using GitHub Actions.
-"""
-
-    with open(README_FILE, "w", encoding="utf-8") as f:
-        f.write(readme)
 
 # -----------------------------------------------------
 # Prompt Builder
 # -----------------------------------------------------
 
 def build_prompt(topic):
-
     return f"""
 You are an expert software engineer and technical educator.
 
@@ -247,7 +196,6 @@ Summarize everything.
 Only return Markdown.
 
 Do not wrap inside triple backticks.
-
 """
 
 
@@ -256,87 +204,47 @@ Do not wrap inside triple backticks.
 # -----------------------------------------------------
 
 def generate_markdown(topic):
-
     logging.info(f"Generating note for {topic}")
-
     prompt = build_prompt(topic)
-
     response = MODEL.generate_content(prompt)
-
     return response.text
-
-
-# -----------------------------------------------------
-# Save Markdown
-# -----------------------------------------------------
-
-def save_markdown(content):
-
-    filename = today_filename()
-
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(content)
-
-    logging.info(f"Saved {filename}")
-
-    return filename
-
-
-# -----------------------------------------------------
-# Today's Summary
-# -----------------------------------------------------
-
-def print_summary(topic, filename):
-
-    print()
-
-    print("=" * 60)
-
-    print("Daily Learning Note Generated")
-
-    print("=" * 60)
-
-    print(f"Topic : {topic}")
-
-    print(f"File  : {filename.name}")
-
-    print("=" * 60)
-
-    print()
 
 
 # -----------------------------------------------------
 # API Retry
 # -----------------------------------------------------
 
-def safe_generate(topic):
+def safe_generate(topic, attempts=2):
+    last_error = None
 
-    try:
-
-        return generate_markdown(topic)
-
-    except Exception as e:
-
-        logging.warning("First attempt failed.")
-
-        logging.warning(str(e))
-
+    for attempt in range(1, attempts + 1):
         try:
-
             return generate_markdown(topic)
-
         except Exception as e:
+            last_error = e
+            logging.warning(f"Attempt {attempt} failed: {e}")
 
-            logging.error("Second attempt failed.")
+    logging.error("All attempts failed.")
+    raise last_error
 
-            raise e
+
+# -----------------------------------------------------
+# Save Markdown
+# -----------------------------------------------------
+
+def save_markdown(content, filename):
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    logging.info(f"Saved {filename}")
+    return filename
+
 
 # -----------------------------------------------------
 # Update README
 # -----------------------------------------------------
 
-def update_readme(topic, filename):
-
+def update_readme(topic, filename, total_notes):
     readme = f"""# Daily Learning
 
 🤖 This repository is automatically updated every day and tells about daily learning.
@@ -349,13 +257,30 @@ Latest Note:
 
 - [{filename.name}](notes/{filename.name})
 
+**Total Notes Generated:** {total_notes}
+
 ---
 
 Generated Automatically
 """
 
-    with open("README.md", "w", encoding="utf-8") as f:
+    with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(readme)
+
+
+# -----------------------------------------------------
+# Today's Summary
+# -----------------------------------------------------
+
+def print_summary(topic, filename):
+    print()
+    print("=" * 60)
+    print("Daily Learning Note Generated")
+    print("=" * 60)
+    print(f"Topic : {topic}")
+    print(f"File  : {filename.name}")
+    print("=" * 60)
+    print()
 
 
 # -----------------------------------------------------
@@ -363,33 +288,27 @@ Generated Automatically
 # -----------------------------------------------------
 
 def main():
-
-    topic = choose_topic()
-
     filename = today_filename()
 
-    # Skip if today's note already exists
-    if filename.exists():
-
+    if already_exists():
         print("Today's note already exists.")
         return
 
+    history = load_history()
+    topic = choose_topic(history)
+
+    # Generate first — only touch history/state after success
     markdown = safe_generate(topic)
 
-    save_markdown(markdown)
+    save_markdown(markdown, filename)
 
-    update_readme(topic, filename)
+    history.append(topic)
+    save_history(history)
+
+    update_readme(topic, filename, total_notes=len(history))
 
     print_summary(topic, filename)
 
 
-# -----------------------------------------------------
-# Run
-# -----------------------------------------------------
-
 if __name__ == "__main__":
-
     main()
-
-
-print("Initialization Complete")
