@@ -1,19 +1,14 @@
 name: Daily AI Learning
-
 on:
   schedule:
     # Daily at 03:30 UTC (09:00 IST)
     - cron: "30 3 * * *"
-
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   generate-note:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -33,16 +28,10 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python generate.py
 
-      - name: Commit and Push Changes
+      - name: Commit Changes
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
+          git config user.name "2005-shubham"
+          git config user.email "shubhamsharmaalwar89@gmail.com"
           git add .
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "🤖 Daily AI Learning $(date -u +'%Y-%m-%d')"
-            git push
-          fi
+          git diff --cached --quiet || git commit -m "🤖 Daily AI Learning $(date -u +'%Y-%m-%d')"
+          git push
