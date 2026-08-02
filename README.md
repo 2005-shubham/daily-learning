@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**AWS**
+**Docker**
 
 Latest Note:
 
-- [2026-08-01.md](notes/2026-08-01.md)
+- [2026-08-02.md](notes/2026-08-02.md)
 
-**Total Notes Generated:** 1
+**Total Notes Generated:** 2
 
 ---
 
