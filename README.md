@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Docker**
+**REST API**
 
 Latest Note:
 
-- [2026-08-02.md](notes/2026-08-02.md)
+- [2026-08-03.md](notes/2026-08-03.md)
 
-**Total Notes Generated:** 2
+**Total Notes Generated:** 3
 
 ---
 
