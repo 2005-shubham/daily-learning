@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**React**
+**MongoDB**
 
 Latest Note:
 
-- [2026-08-04.md](notes/2026-08-04.md)
+- [2026-08-05.md](notes/2026-08-05.md)
 
-**Total Notes Generated:** 4
+**Total Notes Generated:** 5
 
 ---
 
