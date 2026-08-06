@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**MongoDB**
+**Linux**
 
 Latest Note:
 
-- [2026-08-05.md](notes/2026-08-05.md)
+- [2026-08-06.md](notes/2026-08-06.md)
 
-**Total Notes Generated:** 5
+**Total Notes Generated:** 6
 
 ---
 
