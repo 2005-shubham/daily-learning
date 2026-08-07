@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Linux**
+**SQL**
 
 Latest Note:
 
-- [2026-08-06.md](notes/2026-08-06.md)
+- [2026-08-07.md](notes/2026-08-07.md)
 
-**Total Notes Generated:** 6
+**Total Notes Generated:** 7
 
 ---
 
