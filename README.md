@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**System Design**
+**Python**
 
 Latest Note:
 
-- [2026-08-10.md](notes/2026-08-10.md)
+- [2026-08-11.md](notes/2026-08-11.md)
 
-**Total Notes Generated:** 10
+**Total Notes Generated:** 11
 
 ---
 
