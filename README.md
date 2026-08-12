@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Python**
+**GitHub**
 
 Latest Note:
 
-- [2026-08-11.md](notes/2026-08-11.md)
+- [2026-08-12.md](notes/2026-08-12.md)
 
-**Total Notes Generated:** 11
+**Total Notes Generated:** 12
 
 ---
 
