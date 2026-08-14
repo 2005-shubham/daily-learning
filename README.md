@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Node.js**
+**Algorithms**
 
 Latest Note:
 
-- [2026-08-13.md](notes/2026-08-13.md)
+- [2026-08-14.md](notes/2026-08-14.md)
 
-**Total Notes Generated:** 13
+**Total Notes Generated:** 14
 
 ---
 
