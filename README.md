@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**DevOps**
+**JWT**
 
 Latest Note:
 
-- [2026-08-15.md](notes/2026-08-15.md)
+- [2026-08-16.md](notes/2026-08-16.md)
 
-**Total Notes Generated:** 15
+**Total Notes Generated:** 16
 
 ---
 
