@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**JWT**
+**AWS**
 
 Latest Note:
 
-- [2026-08-16.md](notes/2026-08-16.md)
+- [2026-08-17.md](notes/2026-08-17.md)
 
-**Total Notes Generated:** 16
+**Total Notes Generated:** 17
 
 ---
 
