@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**AWS**
+**Java**
 
 Latest Note:
 
-- [2026-08-17.md](notes/2026-08-17.md)
+- [2026-08-18.md](notes/2026-08-18.md)
 
-**Total Notes Generated:** 17
+**Total Notes Generated:** 18
 
 ---
 
