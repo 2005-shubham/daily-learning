@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Java**
+**REST API**
 
 Latest Note:
 
-- [2026-08-18.md](notes/2026-08-18.md)
+- [2026-08-19.md](notes/2026-08-19.md)
 
-**Total Notes Generated:** 18
+**Total Notes Generated:** 19
 
 ---
 
