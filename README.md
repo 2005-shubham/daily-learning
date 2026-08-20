@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**REST API**
+**Terraform**
 
 Latest Note:
 
-- [2026-08-19.md](notes/2026-08-19.md)
+- [2026-08-20.md](notes/2026-08-20.md)
 
-**Total Notes Generated:** 19
+**Total Notes Generated:** 20
 
 ---
 
