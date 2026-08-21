@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Terraform**
+**Authentication**
 
 Latest Note:
 
-- [2026-08-20.md](notes/2026-08-20.md)
+- [2026-08-21.md](notes/2026-08-21.md)
 
-**Total Notes Generated:** 20
+**Total Notes Generated:** 21
 
 ---
 
