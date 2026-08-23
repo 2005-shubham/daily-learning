@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Git**
+**Data Structures**
 
 Latest Note:
 
-- [2026-08-22.md](notes/2026-08-22.md)
+- [2026-08-23.md](notes/2026-08-23.md)
 
-**Total Notes Generated:** 22
+**Total Notes Generated:** 23
 
 ---
 
