@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Data Structures**
+**React**
 
 Latest Note:
 
-- [2026-08-23.md](notes/2026-08-23.md)
+- [2026-08-24.md](notes/2026-08-24.md)
 
-**Total Notes Generated:** 23
+**Total Notes Generated:** 24
 
 ---
 
