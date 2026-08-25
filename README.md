@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**React**
+**Redis**
 
 Latest Note:
 
-- [2026-08-24.md](notes/2026-08-24.md)
+- [2026-08-25.md](notes/2026-08-25.md)
 
-**Total Notes Generated:** 24
+**Total Notes Generated:** 25
 
 ---
 
