@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Redis**
+**Docker**
 
 Latest Note:
 
-- [2026-08-25.md](notes/2026-08-25.md)
+- [2026-08-26.md](notes/2026-08-26.md)
 
-**Total Notes Generated:** 25
+**Total Notes Generated:** 26
 
 ---
 
