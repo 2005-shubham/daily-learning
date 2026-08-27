@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Docker**
+**Python**
 
 Latest Note:
 
-- [2026-08-26.md](notes/2026-08-26.md)
+- [2026-08-27.md](notes/2026-08-27.md)
 
-**Total Notes Generated:** 26
+**Total Notes Generated:** 27
 
 ---
 
