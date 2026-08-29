@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Express**
+**Linux**
 
 Latest Note:
 
-- [2026-08-28.md](notes/2026-08-28.md)
+- [2026-08-29.md](notes/2026-08-29.md)
 
-**Total Notes Generated:** 28
+**Total Notes Generated:** 29
 
 ---
 
