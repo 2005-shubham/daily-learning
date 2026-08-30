@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Linux**
+**GitHub**
 
 Latest Note:
 
-- [2026-08-29.md](notes/2026-08-29.md)
+- [2026-08-30.md](notes/2026-08-30.md)
 
-**Total Notes Generated:** 29
+**Total Notes Generated:** 30
 
 ---
 
