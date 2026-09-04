@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**MongoDB**
+**AWS**
 
 Latest Note:
 
-- [2026-09-03.md](notes/2026-09-03.md)
+- [2026-09-04.md](notes/2026-09-04.md)
 
-**Total Notes Generated:** 34
+**Total Notes Generated:** 35
 
 ---
 
