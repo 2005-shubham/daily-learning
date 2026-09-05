@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**AWS**
+**System Design**
 
 Latest Note:
 
-- [2026-09-04.md](notes/2026-09-04.md)
+- [2026-09-05.md](notes/2026-09-05.md)
 
-**Total Notes Generated:** 35
+**Total Notes Generated:** 36
 
 ---
 
