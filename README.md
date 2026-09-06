@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**System Design**
+**Terraform**
 
 Latest Note:
 
-- [2026-09-05.md](notes/2026-09-05.md)
+- [2026-09-06.md](notes/2026-09-06.md)
 
-**Total Notes Generated:** 36
+**Total Notes Generated:** 37
 
 ---
 
