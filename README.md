@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**C++**
+**SQL**
 
 Latest Note:
 
-- [2026-09-07.md](notes/2026-09-07.md)
+- [2026-09-08.md](notes/2026-09-08.md)
 
-**Total Notes Generated:** 38
+**Total Notes Generated:** 39
 
 ---
 
