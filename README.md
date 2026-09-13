@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Git**
+**Kubernetes**
 
 Latest Note:
 
-- [2026-09-12.md](notes/2026-09-12.md)
+- [2026-09-13.md](notes/2026-09-13.md)
 
-**Total Notes Generated:** 43
+**Total Notes Generated:** 44
 
 ---
 
