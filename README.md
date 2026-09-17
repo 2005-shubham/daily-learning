@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Node.js**
+**JWT**
 
 Latest Note:
 
-- [2026-09-16.md](notes/2026-09-16.md)
+- [2026-09-17.md](notes/2026-09-17.md)
 
-**Total Notes Generated:** 47
+**Total Notes Generated:** 48
 
 ---
 
