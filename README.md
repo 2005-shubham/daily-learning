@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Data Structures**
+**Docker**
 
 Latest Note:
 
-- [2026-09-19.md](notes/2026-09-19.md)
+- [2026-09-20.md](notes/2026-09-20.md)
 
-**Total Notes Generated:** 50
+**Total Notes Generated:** 51
 
 ---
 
