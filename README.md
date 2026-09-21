@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Docker**
+**MongoDB**
 
 Latest Note:
 
-- [2026-09-20.md](notes/2026-09-20.md)
+- [2026-09-21.md](notes/2026-09-21.md)
 
-**Total Notes Generated:** 51
+**Total Notes Generated:** 52
 
 ---
 
