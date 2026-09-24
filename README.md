@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**System Design**
+**SQL**
 
 Latest Note:
 
-- [2026-09-23.md](notes/2026-09-23.md)
+- [2026-09-24.md](notes/2026-09-24.md)
 
-**Total Notes Generated:** 54
+**Total Notes Generated:** 55
 
 ---
 
