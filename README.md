@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Terraform**
+**React**
 
 Latest Note:
 
-- [2026-09-26.md](notes/2026-09-26.md)
+- [2026-09-27.md](notes/2026-09-27.md)
 
-**Total Notes Generated:** 57
+**Total Notes Generated:** 58
 
 ---
 
