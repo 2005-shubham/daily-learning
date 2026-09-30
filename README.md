@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**REST API**
+**AWS**
 
 Latest Note:
 
-- [2026-09-29.md](notes/2026-09-29.md)
+- [2026-09-30.md](notes/2026-09-30.md)
 
-**Total Notes Generated:** 60
+**Total Notes Generated:** 61
 
 ---
 
