@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**AWS**
+**C++**
 
 Latest Note:
 
-- [2026-09-30.md](notes/2026-09-30.md)
+- [2026-10-01.md](notes/2026-10-01.md)
 
-**Total Notes Generated:** 61
+**Total Notes Generated:** 62
 
 ---
 
