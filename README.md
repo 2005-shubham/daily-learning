@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**C++**
+**Kubernetes**
 
 Latest Note:
 
-- [2026-10-01.md](notes/2026-10-01.md)
+- [2026-10-02.md](notes/2026-10-02.md)
 
-**Total Notes Generated:** 62
+**Total Notes Generated:** 63
 
 ---
 
