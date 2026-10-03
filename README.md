@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Kubernetes**
+**Linux**
 
 Latest Note:
 
-- [2026-10-02.md](notes/2026-10-02.md)
+- [2026-10-03.md](notes/2026-10-03.md)
 
-**Total Notes Generated:** 63
+**Total Notes Generated:** 64
 
 ---
 
