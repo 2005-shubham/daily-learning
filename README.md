@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**GitHub**
+**MongoDB**
 
 Latest Note:
 
-- [2026-10-10.md](notes/2026-10-10.md)
+- [2026-10-11.md](notes/2026-10-11.md)
 
-**Total Notes Generated:** 70
+**Total Notes Generated:** 71
 
 ---
 
