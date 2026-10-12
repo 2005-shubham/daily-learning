@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**MongoDB**
+**System Design**
 
 Latest Note:
 
-- [2026-10-11.md](notes/2026-10-11.md)
+- [2026-10-12.md](notes/2026-10-12.md)
 
-**Total Notes Generated:** 71
+**Total Notes Generated:** 72
 
 ---
 
