@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Data Structures**
+**Algorithms**
 
 Latest Note:
 
-- [2026-10-13.md](notes/2026-10-13.md)
+- [2026-10-14.md](notes/2026-10-14.md)
 
-**Total Notes Generated:** 73
+**Total Notes Generated:** 74
 
 ---
 
