@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Algorithms**
+**SQL**
 
 Latest Note:
 
-- [2026-10-14.md](notes/2026-10-14.md)
+- [2026-10-15.md](notes/2026-10-15.md)
 
-**Total Notes Generated:** 74
+**Total Notes Generated:** 75
 
 ---
 
