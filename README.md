@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**REST API**
+**Kubernetes**
 
 Latest Note:
 
-- [2026-10-18.md](notes/2026-10-18.md)
+- [2026-10-19.md](notes/2026-10-19.md)
 
-**Total Notes Generated:** 78
+**Total Notes Generated:** 79
 
 ---
 
