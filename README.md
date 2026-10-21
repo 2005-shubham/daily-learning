@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**React**
+**Java**
 
 Latest Note:
 
-- [2026-10-20.md](notes/2026-10-20.md)
+- [2026-10-21.md](notes/2026-10-21.md)
 
-**Total Notes Generated:** 80
+**Total Notes Generated:** 81
 
 ---
 
