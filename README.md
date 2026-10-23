@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Java**
+**C++**
 
 Latest Note:
 
-- [2026-10-21.md](notes/2026-10-21.md)
+- [2026-10-23.md](notes/2026-10-23.md)
 
-**Total Notes Generated:** 81
+**Total Notes Generated:** 82
 
 ---
 
