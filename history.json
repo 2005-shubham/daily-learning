@@ -82,5 +82,6 @@
     "Java",
     "C++",
     "Node.js",
-    "JWT"
+    "JWT",
+    "Authentication"
 ]

@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**JWT**
+**Authentication**
 
 Latest Note:
 
-- [2026-10-25.md](notes/2026-10-25.md)
+- [2026-10-26.md](notes/2026-10-26.md)
 
-**Total Notes Generated:** 84
+**Total Notes Generated:** 85
 
 ---
 
