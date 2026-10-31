@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Linux**
+**Docker**
 
 Latest Note:
 
-- [2026-10-30.md](notes/2026-10-30.md)
+- [2026-10-31.md](notes/2026-10-31.md)
 
-**Total Notes Generated:** 89
+**Total Notes Generated:** 90
 
 ---
 
