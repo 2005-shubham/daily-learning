@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Docker**
+**Algorithms**
 
 Latest Note:
 
-- [2026-10-31.md](notes/2026-10-31.md)
+- [2026-11-01.md](notes/2026-11-01.md)
 
-**Total Notes Generated:** 90
+**Total Notes Generated:** 91
 
 ---
 
