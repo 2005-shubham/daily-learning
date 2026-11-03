@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**DevOps**
+**MongoDB**
 
 Latest Note:
 
-- [2026-11-02.md](notes/2026-11-02.md)
+- [2026-11-03.md](notes/2026-11-03.md)
 
-**Total Notes Generated:** 92
+**Total Notes Generated:** 93
 
 ---
 
