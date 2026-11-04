@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**MongoDB**
+**Data Structures**
 
 Latest Note:
 
-- [2026-11-03.md](notes/2026-11-03.md)
+- [2026-11-04.md](notes/2026-11-04.md)
 
-**Total Notes Generated:** 93
+**Total Notes Generated:** 94
 
 ---
 
