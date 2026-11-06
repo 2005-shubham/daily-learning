@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**System Design**
+**Kubernetes**
 
 Latest Note:
 
-- [2026-11-05.md](notes/2026-11-05.md)
+- [2026-11-06.md](notes/2026-11-06.md)
 
-**Total Notes Generated:** 95
+**Total Notes Generated:** 96
 
 ---
 
