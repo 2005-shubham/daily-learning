@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Kubernetes**
+**Redis**
 
 Latest Note:
 
-- [2026-11-06.md](notes/2026-11-06.md)
+- [2026-11-07.md](notes/2026-11-07.md)
 
-**Total Notes Generated:** 96
+**Total Notes Generated:** 97
 
 ---
 
