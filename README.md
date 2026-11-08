@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Redis**
+**SQL**
 
 Latest Note:
 
-- [2026-11-07.md](notes/2026-11-07.md)
+- [2026-11-08.md](notes/2026-11-08.md)
 
-**Total Notes Generated:** 97
+**Total Notes Generated:** 98
 
 ---
 
