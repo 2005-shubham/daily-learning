@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**SQL**
+**React**
 
 Latest Note:
 
-- [2026-11-08.md](notes/2026-11-08.md)
+- [2026-11-09.md](notes/2026-11-09.md)
 
-**Total Notes Generated:** 98
+**Total Notes Generated:** 99
 
 ---
 
