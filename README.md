@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**React**
+**AWS**
 
 Latest Note:
 
-- [2026-11-09.md](notes/2026-11-09.md)
+- [2026-11-10.md](notes/2026-11-10.md)
 
-**Total Notes Generated:** 99
+**Total Notes Generated:** 100
 
 ---
 
