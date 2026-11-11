@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**AWS**
+**Node.js**
 
 Latest Note:
 
-- [2026-11-10.md](notes/2026-11-10.md)
+- [2026-11-11.md](notes/2026-11-11.md)
 
-**Total Notes Generated:** 100
+**Total Notes Generated:** 101
 
 ---
 
