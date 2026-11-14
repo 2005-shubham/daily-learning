@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Git**
+**Terraform**
 
 Latest Note:
 
-- [2026-11-13.md](notes/2026-11-13.md)
+- [2026-11-14.md](notes/2026-11-14.md)
 
-**Total Notes Generated:** 103
+**Total Notes Generated:** 104
 
 ---
 
