@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Python**
+**Java**
 
 Latest Note:
 
-- [2026-11-16.md](notes/2026-11-16.md)
+- [2026-11-17.md](notes/2026-11-17.md)
 
-**Total Notes Generated:** 106
+**Total Notes Generated:** 107
 
 ---
 
