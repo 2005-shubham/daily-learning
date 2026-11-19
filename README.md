@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**C++**
+**GitHub**
 
 Latest Note:
 
-- [2026-11-18.md](notes/2026-11-18.md)
+- [2026-11-19.md](notes/2026-11-19.md)
 
-**Total Notes Generated:** 108
+**Total Notes Generated:** 109
 
 ---
 
