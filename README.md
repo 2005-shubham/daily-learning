@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**GitHub**
+**Docker**
 
 Latest Note:
 
-- [2026-11-19.md](notes/2026-11-19.md)
+- [2026-11-21.md](notes/2026-11-21.md)
 
-**Total Notes Generated:** 109
+**Total Notes Generated:** 110
 
 ---
 
