@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**Data Structures**
+**System Design**
 
 Latest Note:
 
-- [2026-11-22.md](notes/2026-11-22.md)
+- [2026-11-23.md](notes/2026-11-23.md)
 
-**Total Notes Generated:** 111
+**Total Notes Generated:** 112
 
 ---
 
