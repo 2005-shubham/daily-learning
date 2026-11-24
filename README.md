@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**System Design**
+**JWT**
 
 Latest Note:
 
-- [2026-11-23.md](notes/2026-11-23.md)
+- [2026-11-24.md](notes/2026-11-24.md)
 
-**Total Notes Generated:** 112
+**Total Notes Generated:** 113
 
 ---
 
