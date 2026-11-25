@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**JWT**
+**REST API**
 
 Latest Note:
 
-- [2026-11-24.md](notes/2026-11-24.md)
+- [2026-11-25.md](notes/2026-11-25.md)
 
-**Total Notes Generated:** 113
+**Total Notes Generated:** 114
 
 ---
 
