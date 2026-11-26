@@ -4,13 +4,13 @@
 
 ## Today's Topic
 
-**REST API**
+**Redis**
 
 Latest Note:
 
-- [2026-11-25.md](notes/2026-11-25.md)
+- [2026-11-26.md](notes/2026-11-26.md)
 
-**Total Notes Generated:** 114
+**Total Notes Generated:** 115
 
 ---
 
